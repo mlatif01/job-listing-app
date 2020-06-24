@@ -28335,7 +28335,9 @@ var App = /*#__PURE__*/function (_Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/_react.default.createElement("div", null, "App");
+      return /*#__PURE__*/_react.default.createElement("div", {
+        className: "app"
+      }, "App");
     }
   }]);
 
@@ -28387,7 +28389,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "17763" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "7252" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -1,2 +1,8 @@
-.DS_Store
-node_modules
+node_modules/
+.cache/
+dist/
+*.log
+.idea/
+report.html
+*.orig
+coverage/
